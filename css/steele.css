@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 500px;
+    background-image: url('https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-color: #000000;
+    background-size: 210vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+  }
+  
+  label {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto Mono',monospace;
+    font-weight: bold;
+    color:#f3680b;
+  }
+
+  .container1 {
+    padding: 26px;
+    text-align: center;
+  }
+  
+  .container2 {
+    font-size: 22px;
+    text-align: center;
+    height: 40vh;
+  }
+  
+  .page-title {
+    padding: 20px;
+    font-size: 50px;
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color:#ff5100;
+    margin-top: 15px;
+  }
+  
+  .page-logo {
+    width: 300px;
+    margin-top: 40px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  button {
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background: #ffffff;
+  }
+
+  .nota-input {
+    height: 30px;
+    width: 50px;
+  }
